@@ -88,8 +88,17 @@ Full step-by-step setup, licence-key configuration, and initialization code:
 
 ## Installation (Swift Package Manager)
 
-A Swift Package Manager distribution is available. See the getting-started guide for the package
-URL and setup:
+The SDK is also available as a Swift package. In Xcode: **File → Add Package Dependencies…**, enter:
+
+```
+https://github.com/MapstedHQ/mapsted-ios-sdk-spm
+```
+
+Set the rule to **Up to Next Major Version** starting at **26.6.1**, then add the products you need
+(most map apps add **MapstedMapUi**; positioning-only apps add **MapstedCore**). Each module is a
+universal XCFramework (device **and** simulator in one), so there is no separate simulator setup.
+
+Full setup + licence-key steps:
 **https://developer.mapsted.com/mobile-sdk/getting-started/ios-getting-started/**
 
 ---
