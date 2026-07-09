@@ -114,6 +114,7 @@ Full setup + licence-key steps:
 
 - 🏠 Developer site — https://developer.mapsted.com/mobile-sdk/
 - 🚀 Getting started (iOS) — https://developer.mapsted.com/mobile-sdk/getting-started/ios-getting-started/
+- 🧭 Migration guide (6.2.x → 26.7.1) — https://developer.mapsted.com/mobile-sdk/migration/migration_guide_to_26.7.1/
 - 📖 API reference — https://developer.mapsted.com/mobile-sdk/api-reference/documentation/mapstedcore/
 - 📝 Release notes — https://developer.mapsted.com/mobile-sdk/release-notes/
 - ✉️ Support — https://mapsted.com/contact-us
