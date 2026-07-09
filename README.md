@@ -3,7 +3,7 @@
 Official binary distribution of the **Mapsted Mobile SDK for iOS** — indoor positioning,
 blue-dot location, wayfinding, maps, and location-based marketing, with no external hardware.
 
-**Current release: `26.6.1`**
+**Current release: `26.7.1`**
 
 > 📘 **Full documentation, guides, and API reference live on the Mapsted Developer site:**
 > **https://developer.mapsted.com/mobile-sdk/**
@@ -14,7 +14,7 @@ blue-dot location, wayfinding, maps, and location-based marketing, with no exter
 
 This repository hosts the prebuilt **XCFramework** binaries for the iOS SDK as
 [GitHub Release](https://github.com/MapstedHQ/mapsted-ios-sdk/releases) assets. Each release tag
-(e.g. [`26.6.1`](https://github.com/MapstedHQ/mapsted-ios-sdk/releases/tag/26.6.1)) carries one
+(e.g. [`26.7.1`](https://github.com/MapstedHQ/mapsted-ios-sdk/releases/tag/26.7.1)) carries one
 `.xcframework.zip` per module.
 
 Every binary is a **universal XCFramework** containing both device (`ios-arm64`) and
@@ -63,9 +63,9 @@ platform :ios, '16.0'
 use_frameworks!
 
 target 'YourApp' do
-  pod 'mapsted-sdk-core',    '~> 26.6.1'
-  pod 'mapsted-sdk-map',     '~> 26.6.1'
-  pod 'mapsted-sdk-map-ui',  '~> 26.6.1'
+  pod 'mapsted-sdk-core',    '~> 26.7.1'
+  pod 'mapsted-sdk-map',     '~> 26.7.1'
+  pod 'mapsted-sdk-map-ui',  '~> 26.7.1'
   # add the other modules you need (see the table above)
 end
 ```
@@ -94,7 +94,7 @@ The SDK is also available as a Swift package. In Xcode: **File → Add Package D
 https://github.com/MapstedHQ/mapsted-ios-sdk-spm
 ```
 
-Set the rule to **Up to Next Major Version** starting at **26.6.1**, then add the products you need
+Set the rule to **Up to Next Major Version** starting at **26.7.1**, then add the products you need
 (most map apps add **MapstedMapUi**; positioning-only apps add **MapstedCore**). Each module is a
 universal XCFramework (device **and** simulator in one), so there is no separate simulator setup.
 
@@ -105,7 +105,7 @@ Full setup + licence-key steps:
 
 ## Release notes
 
-- **26.6.1** — https://developer.mapsted.com/mobile-sdk/release-notes/#v2661
+- **26.7.1** — https://developer.mapsted.com/mobile-sdk/release-notes/#v2671
 - All releases — https://developer.mapsted.com/mobile-sdk/release-notes/
 
 ---
