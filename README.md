@@ -3,7 +3,7 @@
 Official binary distribution of the **Mapsted Mobile SDK for iOS** — indoor positioning,
 blue-dot location, wayfinding, maps, and location-based marketing, with no external hardware.
 
-**Current release: `26.7.2`**
+**Current release: `26.8.1`**
 
 > 📘 **Full documentation, guides, and API reference live on the Mapsted Developer site:**
 > **https://developer.mapsted.com/mobile-sdk/**
@@ -14,7 +14,7 @@ blue-dot location, wayfinding, maps, and location-based marketing, with no exter
 
 This repository hosts the prebuilt **XCFramework** binaries for the iOS SDK as
 [GitHub Release](https://github.com/MapstedHQ/mapsted-ios-sdk/releases) assets. Each release tag
-(e.g. [`26.7.2`](https://github.com/MapstedHQ/mapsted-ios-sdk/releases/tag/26.7.2)) carries one
+(e.g. [`26.8.1`](https://github.com/MapstedHQ/mapsted-ios-sdk/releases/tag/26.8.1)) carries one
 `.xcframework.zip` per module.
 
 Every binary is a **universal XCFramework** containing both device (`ios-arm64`) and
@@ -63,14 +63,14 @@ platform :ios, '16.0'
 use_frameworks!
 
 target 'YourApp' do
-  pod 'mapsted-sdk-core',    '26.7.2'
-  pod 'mapsted-sdk-map',     '26.7.2'
-  pod 'mapsted-sdk-map-ui',  '26.7.2'
+  pod 'mapsted-sdk-core',    '26.8.1'
+  pod 'mapsted-sdk-map',     '26.8.1'
+  pod 'mapsted-sdk-map-ui',  '26.8.1'
   # add the other modules you need (see the table above)
 end
 ```
 
-> **Pin an exact version.** A range such as `~> 26.7.2` resolves to whatever is newest on the day
+> **Pin an exact version.** A range such as `~> 26.8.1` resolves to whatever is newest on the day
 > `pod install` runs, so two builds of the same commit can contain different SDKs. Pin exactly and
 > change the pin deliberately.
 
@@ -98,7 +98,7 @@ The SDK is also available as a Swift package. In Xcode: **File → Add Package D
 https://github.com/MapstedHQ/mapsted-ios-sdk-spm
 ```
 
-Set the rule to **Exact Version** **26.7.2**, then add the products you need
+Set the rule to **Exact Version** **26.8.1**, then add the products you need
 (most map apps add **MapstedMapUi**; positioning-only apps add **MapstedCore**). Each module is a
 universal XCFramework (device **and** simulator in one), so there is no separate simulator setup.
 
@@ -109,7 +109,7 @@ Full setup + licence-key steps:
 
 ## Release notes
 
-- **26.7.2** — https://developer.mapsted.com/mobile-sdk/release-notes/
+- **26.8.1** — https://developer.mapsted.com/mobile-sdk/release-notes/
 - **26.7.1** — https://developer.mapsted.com/mobile-sdk/release-notes/#v2671
 - All releases — https://developer.mapsted.com/mobile-sdk/release-notes/
 
