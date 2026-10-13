@@ -109,7 +109,11 @@ Full setup + licence-key steps:
 
 ## Release notes
 
-- **26.10.2** — https://developer.mapsted.com/mobile-sdk/release-notes/
+- **26.10.2** — https://developer.mapsted.com/mobile-sdk/release-notes/#v26102
+- **26.10.1** — https://developer.mapsted.com/mobile-sdk/release-notes/#v26101
+- **26.9.1** — https://developer.mapsted.com/mobile-sdk/release-notes/#v2691
+- **26.8.1** — https://developer.mapsted.com/mobile-sdk/release-notes/#v2681
+- **26.7.2** — https://developer.mapsted.com/mobile-sdk/release-notes/#v2672
 - **26.7.1** — https://developer.mapsted.com/mobile-sdk/release-notes/#v2671
 - All releases — https://developer.mapsted.com/mobile-sdk/release-notes/
 
